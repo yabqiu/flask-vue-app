@@ -25,7 +25,7 @@ const routes = [
     component: Ping,
   },
   {
-    path: '/pingx',
+    path: '/ping_xyz',
     name: 'Ping',
     component: Ping,
   },
