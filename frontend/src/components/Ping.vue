@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     getMessage() {
-      const path = 'http://localhost:5000/ping'; // 连接到 Flask 的 /ping api
+      const path = 'http://localhost:5000/api/ping';
       axios.get(path)
         .then((res) => {
           this.msg = res.data;
